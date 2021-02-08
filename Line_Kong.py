@@ -9,4 +9,4 @@ x=1
 for i in range(0,10):
     print(rand())
     
-# Xn+1=(a*Xn+c) mod m
+# Xn+1=(a*Xn+c)*mod m 
