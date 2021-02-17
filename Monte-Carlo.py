@@ -8,7 +8,7 @@ import random as rand
 
 
 IN=0
-OUT=10
+OUT=20
 
 
 ax=plt.subplots()
@@ -30,7 +30,7 @@ for i in range(0,OUT):
                 print('Point ...tra-ta-ta big kvadrat')
                 IN+=1
 
-S=(64*IN)/(8*8)
+S=(64*IN)/OUT
 print('S=',S)
     # S fig= S kv * IN / H*W
 
